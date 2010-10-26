@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
 #if defined(Q_WS_S60)
     w.showMaximized();
 #else
-    w.show();
+    w.showFullScreen();
 #endif
 
     return a.exec();

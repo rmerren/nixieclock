@@ -5,6 +5,7 @@ MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+    is_full_screen = true;
     ui->setupUi(this);
     pixmaps.append(QPixmap(":/nixie/Nixie_0"));
     pixmaps.append(QPixmap(":/nixie/Nixie_1"));
@@ -72,4 +73,21 @@ void MainWindow::set_time()
         ui->label_second_1->setPixmap(pixmaps[new_second_1]);
     }
 
+}
+
+void MainWindow::toggle_full_screen()
+{
+    if (is_full_screen) {
+        showMaximized();
+        is_full_screen = false;
+    } else {
+        showFullScreen();
+        is_full_screen = true;
+    }
+}
+
+
+void MainWindow::mouseDoubleClickEvent(QMouseEvent* event)
+{
+    toggle_full_screen();
 }
