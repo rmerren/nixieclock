@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/nixie">
+        <file alias="Nixie_0">images/Nixie_0.png</file>
+        <file alias="Nixie_1">images/Nixie_1.png</file>
+        <file alias="Nixie_2">images/Nixie_2.png</file>
+        <file alias="Nixie_3">images/Nixie_3.png</file>
+        <file alias="Nixie_4">images/Nixie_4.png</file>
+        <file alias="Nixie_5">images/Nixie_5.png</file>
+        <file alias="Nixie_6">images/Nixie_6.png</file>
+        <file alias="Nixie_7">images/Nixie_7.png</file>
+        <file alias="Nixie_8">images/Nixie_8.png</file>
+        <file alias="Nixie_9">images/Nixie_9.png</file>
+    </qresource>
+</RCC>
