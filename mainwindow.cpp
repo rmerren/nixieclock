@@ -6,6 +6,14 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     is_full_screen = true;
+
+    current_hour_10 = -1;
+    current_hour_1 = -1;
+    current_minute_10 = -1;
+    current_minute_1 = -1;
+    current_second_10 = -1;
+    current_second_1 = -1;
+
     ui->setupUi(this);
     pixmaps.append(QPixmap(":/nixie/Nixie_0"));
     pixmaps.append(QPixmap(":/nixie/Nixie_1"));
