@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=1.0.0
+Encoding=UTF-8
+Name=nixieclock
+Comment=Set your status on the big eff
+Exec=/usr/bin/nixieclock/nixieclock
+Icon=nixieclock_icon
+X-Icon-path=/usr/share/icons
+X-Window-Icon=nixieclock_icon
+Type=Application
+Categories=Utility;Clock
+Name[en_US]=nixieclock

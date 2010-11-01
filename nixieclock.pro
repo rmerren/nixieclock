@@ -29,3 +29,13 @@ symbian {
 
 RESOURCES += \
     images.qrc
+
+unix {
+    INSTALLS += target desktop icon48
+    target.path = /usr/bin/nixieclock
+    desktop.path = /usr/share/applications/hildon
+    desktop.files += maemofiles/nixieclock.desktop
+    icon48.path = /usr/share/icons/hicolor/48x48/apps
+    icon48.files += maemofiles/nixieclock_icon.png
+}
+

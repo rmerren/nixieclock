@@ -1,0 +1,39 @@
+This package was debianized by Richard Merren <richard@merren.net> on
+Tue, 31 Oct 2010 17:00:00 -0500.
+
+Upstream Author(s):
+
+    Richard Merren<richard@merren.net>
+
+Copyright:
+
+    <Copyright (C) Richard Merren>
+
+License:
+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+
+On Debian systems, the complete text of the GNU General
+Public License can be found in `/usr/share/common-licenses/GPL'.
+
+The Debian packaging is (C) 2010, Richard Merren <richard@merren.net> and
+is licensed under the GPL, see above.
+
+
+Nixie image from http://commons.wikimedia.org/wiki/File:Nixie.gif
+
+Nixie images are distributed under the Creative Commons license
+Creative Commons Attribution Creative Commons Share Alike 	This file is licensed under the Creative Commons Attribution ShareAlike 3.0 License. In short: you are free to share and make derivative works of the file under the conditions that you appropriately attribute it, and that you distribute it only under a license identical to this one. Official license Subject to disclaimers.
+
